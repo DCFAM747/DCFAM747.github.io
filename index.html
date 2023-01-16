@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>안녕하세요. 김동휘씨.</h2>
+    <h2 id="txt1">안녕하세요. 김동휘씨.</h2>
+
+    <script>
+        document.getElementById('txt1').addEventListener('click', function(){
+            document.getElementById('txt1').innerHTML = '안녕 못한다 임마!'
+        })
+    </script>
 </body>
 </html>
